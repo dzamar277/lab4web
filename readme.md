@@ -286,7 +286,7 @@ body {
 </html>
 ```
 * hasil nya ini.
-![internal](img/layout_hasil.jpg)
+![internal](img/layout_hasil.PNG)
 
 
 
