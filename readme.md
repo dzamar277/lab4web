@@ -75,7 +75,7 @@ body {
 ```
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout2.png)
-## 3. Membuat Layout Lanjutan
+## 4. Membuat Layout Lanjutan
 * selanjutnya membuat nav dan hero wrapper Html Lanjutan 
 ```
 <div id="container">
@@ -95,7 +95,7 @@ body {
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout3.JPG)
 
-## 4. Membuat Layout Lanjutan
+## 5. Membuat Layout Lanjutan
 * selanjutnya membuat nav dan hero wrapper Html Lanjutan 
 ```
 <div id="container">
@@ -115,7 +115,7 @@ body {
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout4.JPG)
 
-## 4. Membuat Layout Lanjutan
+## 6. Membuat Layout Lanjutan
 * selanjutnya membuat widget Html Lanjutan 
 ```
 <aside id="sidebar">
@@ -138,7 +138,7 @@ body {
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout4.JPG)
 
-## 5. Membuat Layout Lanjutan
+## 7. Membuat Layout Lanjutan
 * selanjutnya membuat circle Html Lanjutan 
 ```
 <img src="https://dummyimage.com/120/dbb7d25/fff.png" alt="" class="image-circle">
@@ -180,7 +180,7 @@ body {
 .
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout5.JPG)
-## 6. Membuat Layout Lanjutan
+## 8. Membuat Layout Lanjutan
 * selanjutnya membuat feature heading Html Lanjutan 
 ```
   <hr class="divider">
@@ -199,7 +199,7 @@ body {
 * model divider pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout6.JPG)
 
-## 4. Hasil Layout
+## 9. Hasil Layout
 * maka hasil nya sebagai berikut
 ```
 <!DOCTYPE html>
