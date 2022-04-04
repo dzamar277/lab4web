@@ -6,7 +6,7 @@
 | *NIM* | 312010477 |
 | *Kelas* | TI.20.A.2 |
 | *Mata Kuliah* | Pemrograman Web |
-## 1. Membuat Dokumen BOX
+## 1. Membuat Dokumen BOX dan css
 * Buka VS Code dan buat file HTML baru. Setelah itu buat struktur HTML 
 
 ```
@@ -30,6 +30,23 @@
 
 * Maka hasilnya akan seperti berikut.
 ![struktur](img/box.png)
+*  Buat css. 
+```
+div {
+    padding: 15px;
+    float: left;
+}
+.div1 {
+    background-color: red;
+}
+.div2 {
+    background-color: yellow;
+}
+
+.div3 {
+    background-color: green;
+}
+```
 ## 2. Membuat Layout 
 * kemudian Membuat header Sederhana
 <!-- Ini adalah paragraf pertama -->
@@ -58,7 +75,7 @@
 ![internal](img/layout1.png)
 
 ## 3. Membuat Layout Lanjutan
-* selanjutnya membuat nav dan hero wrapper Html Lanjutan 
+* selanjutnya membuat nav box dengan CSS Lanjutan 
 ```
 body {
     line-height: 1;
@@ -74,7 +91,7 @@ body {
 
 ```
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
-![internal](img/layout2.png)
+![internal](img/layout2.JPG)
 ## 4. Membuat Layout Lanjutan
 * selanjutnya membuat nav dan hero wrapper Html Lanjutan 
 ```
@@ -92,11 +109,39 @@ body {
             <a href="home.html" class="btn btn-large">Selanjutnya</a>
         </section>
 ```
+
+* CSS Lanjutan 
+
+```
+/* header */
+
+header {
+    padding: 25px;
+}
+header h1 {
+    margin: 20px 10px;
+    color: #857a7a;
+}
+
+nav {
+    display: block;
+    background-color: rgb(81, 81, 204);
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 14px;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+```
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
 ![internal](img/layout3.JPG)
 
 ## 5. Membuat Layout Lanjutan
-* selanjutnya membuat nav dan hero wrapper Html Lanjutan 
+* selanjutnya membuat widget dan hero wrapper Html Lanjutan 
 ```
 <div id="container">
         <header><h1>Layout Sederhana</h1></header>
@@ -112,31 +157,107 @@ body {
             <a href="home.html" class="btn btn-large">Selanjutnya</a>
         </section>
 ```
-* model nav pemrograman web Maka hasilnya akan seperti berikut.
-![internal](img/layout4.JPG)
 
-## 6. Membuat Layout Lanjutan
-* selanjutnya membuat widget Html Lanjutan 
+* maka hasil css nya
+
 ```
-<aside id="sidebar">
-                <div class="widget-box">
-                    <h3 class="title">Widget Header</h3>
-                    <ul>
-                        <li><a href="#">Widget Link</a></li>
-                        <li><a href="#">Widget Link</a></li>
-                        <li><a href="#">Widget Link</a></li>
-                        <li><a href="#">Widget Link</a></li>
-                        <li><a href="#">Widget Link</a></li>
-                    </ul>
-                </div>
-                <div class="widget-box">
-                    <h3 class="title">Widget Text</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusamus incidunt vitae alias, unde doloremque animi, fuga iusto, dolor voluptate facere. Ipsa, odio quae? Magnam, eveniet enim. Esse, sint sequi.</p>
-                </div>
-            </aside>
+#wrapper {
+    margin:0;
+}
+
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+/* ini bagian sidebar */
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+
+/*ini bagian widget */
+
+.widget-box {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.widget-box .title {
+    padding: 10px 16px;
+    background-color: #428bca;
+    color: #fff;
+}
+.widget-box ul {
+    list-style-type:none ;
+}
+``
+* model nav pemrograman web Maka hasilnya akan seperti berikut.
+```
+![internal](img/layout4.JPG)
+## 6. Membuat Layout Lanjutan
+* selanjutnya membuat circle pada website contoh html 
+```
+ <hr class="divider">
+                            <article class="entry">
+                                <h2>First Feature heading.</h2>
+                                <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, aut! Aut voluptatem hic soluta rem, facilis excepturi dignissimos repudiandae incidunt in delectus libero velit consectetur. Quo aperiam consequuntur quasi modi.</p>
+                            </article>
+                            <hr class="divider">
+                            <article class="entry">
+                                <h2>First featurete Heading </h2>
+                                <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="" class="right-img">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repe
+                                    llat voluptatum, dignissimos animi cupiditate provident ad cumque, tenetur debitis, deleniti placeat voluptates at! Eius eo
+                                    s dignissimos quos accusantium, quia cum.</p>
+                            </article>
+```
+* lalu css nya adalah 
+```
+.box h3{
+    margin: 15px 0;
+}
+.box p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.box img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.row {
+    margin: 0 -10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.row:after, .row:before,
+.entry:after, .entry:before {
+    content: '';
+    display: table;
+}
+.row:after,
+.entry:after {
+    clear: both;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 40px 0;
+}
 ```
 * model nav pemrograman web Maka hasilnya akan seperti berikut.
-![internal](img/layout4.JPG)
+![internal](img/layout5.JPG)
 
 ## 7. Membuat Layout Lanjutan
 * selanjutnya membuat circle Html Lanjutan 
@@ -286,7 +407,21 @@ body {
 </html>
 ```
 * hasil nya ini.
-![internal](img/layout_hasil.PNG)
+![internal](img/layout_hasil.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
